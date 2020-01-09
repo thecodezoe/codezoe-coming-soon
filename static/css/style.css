@@ -6,7 +6,7 @@ body {
 }
 
 .bgimg {
-  background: url(another.jpg);
+  background: url(/static/img/background.jpg);
   height: 100%;
   background-position: center;
   background-size: cover;
