@@ -6,7 +6,7 @@ body {
 }
 
 .bgimg {
-  background: url(/static/img/background.jpg);
+  background: url(../img/background.jpg);
   height: 100%;
   background-position: center;
   background-size: cover;
@@ -14,14 +14,14 @@ body {
   width: 100%;
   opacity: 0.5;
 }
+.icons{
+  color:#20344a;
+  padding:10px;
+}
+.social-icons{
+  margin-top:15%;
+}
 
-/* .middle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-} */
 
 .middle {
   background-color: #fff;
@@ -39,6 +39,56 @@ body {
   transition: all 0.5s cubic-bezier(0.7, 0, 0.3, 1);
   border-right: 1px solid #15171e;
   transform: skew(-15deg, 0deg);
+}
+.time{
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 1096px){
+   .middle {
+     -webkit-transform: skew(0deg, 0deg);
+     -moz-transform: skew(0deg, 0deg);
+     -ms-transform: skew(0deg, 0deg);
+     -o-transform: skew(0deg, 0deg);
+     transform: skew(0deg, 0deg);
+   }
+  
+}
+@media only screen and (max-width: 1507px) {
+
+  h1 {
+    font-size: 40px !important;
+  }
+  .img{
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 594px) {
+
+  h1 {
+    font-size: 27px !important;
+  }
+
+  .img {
+    width: 160px;
+  }
+  .time {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width:330px) {
+
+  h1 {
+    font-size: 20px !important;
+  }
+
+  .img {
+    width: 120px;
+  }
+
+  .time {
+    font-size: 10px;
+  }
 }
 
 .content-div {
