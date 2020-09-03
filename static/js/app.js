@@ -1,4 +1,4 @@
-var countDownDate = new Date("Feb 29,2020 00:00:00").getTime();
+     /*var countDownDate = new Date("Nov 15,2020 00:00:00").getTime();
 
       var countDownfunction = setInterval(function() {
         var now = new Date().getTime();
@@ -17,3 +17,6 @@ var countDownDate = new Date("Feb 29,2020 00:00:00").getTime();
           document.getElementById("demo").innerHTML = "EXPIRED";
         }
       }, 1000);
+    */
+    
+     
