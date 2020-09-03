@@ -17,6 +17,7 @@ body {
 .icons{
   color:#15b7b7;   /*#20344a old color*/
   padding:10px;
+  font-size: 2rem;
 }
 .social-icons{
   margin-top:15%;
